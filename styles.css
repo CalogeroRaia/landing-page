@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #84c3fa;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center; /* Centra gli elementi lungo l'asse principale (orizzontalmente) */
+    align-items: center; /* Centra gli elementi lungo l'asse trasversale (verticalmente) */
+}
+
+img {
+    width: 150%; /* Aumenta la larghezza dell'immagine */
+    max-width: 500px; /* Limita la larghezza massima dell'immagine */
+    height: auto; /* Imposta l'altezza automaticamente in base alla larghezza */
+    margin-left: auto; /* Posiziona l'immagine a destra */
+}
+
+
+form {
+    width: 40%;
+    height: 40%;
+}
+
+h1 {
+    text-align: center;
+}
+
+#contact-form {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    text-align: center;
+    width: 40%; /* Riduci la larghezza del form */
+    margin-right: auto; /* Sposta il form verso sinistra */
+    background-color: #fff;
+}
+#contactForm button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px; /* Imposta il bordo del pulsante per renderlo più rotondo */
+}
+
+
+
+#contactForm input,
+#contactForm textarea,
+#contactForm select {
+    width: 80%;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: block; /* Imposta gli elementi come blocchi per farli apparire uno sotto l'altro */
+}
+
+#contactForm button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#form-messages {
+    margin-top: 20px;
+    text-align: center;
+}
